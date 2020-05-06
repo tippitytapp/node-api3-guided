@@ -4,6 +4,7 @@
   "description": "Guided Project for Web API-III Module",
   "main": "index.js",
   "scripts": {
+    "start": "npm run server",
     "server": "nodemon index.js"
   },
   "repository": {
@@ -20,8 +21,12 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "colors": "*",
+    "cors": "*",
     "express": "^4.17.1",
     "knex": "^0.20.13",
+    "morgan": "*",
+    "path": "^0.12.7",
     "sqlite3": "^4.1.1"
   }
 }
